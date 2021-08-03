@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Practica Calculo Porcentajes y Descuentos</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculando porcentajes y descuentos</h1>
+    </header>
+    <section>
+      <form>
+        <label for="inputPrecio">Ingresar el precio del articulo:</label>
+        <input type="number" id="inputPrecio" />
+        <label for="inputDescuento">Ingresar el valor de descuento</label>
+        <input type="number" id="inputDescuento" />
+        <button type="button" onclick="precioFinal()">
+          Calcular Descuento
+        </button>
+        <p id="resultadoDescuento"></p>
+      </form>
+    </section>
+    <script src="./descuento.js"></script>
+  </body>
+</html>
